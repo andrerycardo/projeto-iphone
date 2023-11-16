@@ -1,5 +1,14 @@
 @charset "UTF-8";
 
+
+    
+
+
+
+
+
+
+
 *{
     margin: 0px;
     padding: 0px;
@@ -58,6 +67,7 @@ iframe#tela{
     text-align: right;
     padding-top:100px;
     padding-right: 50px;
+    
 }
 
 #redes-sociais img:hover{
@@ -72,3 +82,19 @@ a{
    
     
 }
+
+@media(max-width:320px){
+    #telefone{
+      position: absolute;
+      top: 200px;
+    }
+    #redes-sociais{
+        padding-top: 529px;
+        padding-right: 100px;
+        display:flex;
+    }
+    #redes-sociais img{
+        margin: -30px;
+        margin-right: auto;
+    }
+}  
